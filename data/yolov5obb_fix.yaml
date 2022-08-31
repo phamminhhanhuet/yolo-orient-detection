@@ -1,0 +1,17 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/hanhpm2/Downloads/PackageMeasurement/data_30_8/yolo_orient_dataset/ # dataset root dir
+train: train/images #images   # train images (relative to 'path')
+val: val/images #images  # val images (relative to 'path')
+test: test/images  #images # test images (optional)
+
+# Classes
+#nc: 1  # number of classes
+nc: 1  # number of classes
+#names: ['obj']  # class names
+names: ['obj']  # class names
+
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
